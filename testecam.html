@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DGS Transportes</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Seção de Boas-Vindas */
+        .welcome-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+        .welcome-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .welcome-section p {
+            font-size: 1.2rem;
+        }
+
+        /* Conteúdo Principal */
+        .main-content {
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h3 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            color: #007BFF;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Seção de Contato Futurista */
+        .contact-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+        }
+
+        .contact-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .whatsapp-button {
+            display: inline-block;
+            background-color: #25D366;
+            color: #fff;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>DGS TRANSPORTES</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Boas-Vindas -->
+    <section class="welcome-section">
+        <h2>Bem-vindo à DGS Transportes!
+</h2>
+        <p>Oferecemos soluções ágeis e seguras para o transporte de cargas, garantindo eficiência e pontualidade. Conte com a DGS Transportes para levar sua carga com responsabilidade e compromisso.</p>
+    </section>
+
+    <!-- Conteúdo Principal -->
+    <section class="main-content">
+        <div class="card">
+            <h3>Fretes Capital</h3>
+            <p>
+                🚛 Transporte de Cargas – Atendemos empresas e particulares com transporte seguro e ágil.
+                📦 Fretes e Mudanças – Mudanças residenciais e comerciais com cuidado e eficiência.
+                🏢 Logística Empresarial – Soluções personalizadas para otimizar o transporte de mercadorias.
+                ⚡ Entrega Expressa – Serviço rápido para atender demandas urgentes.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Fretes Interior</h3>
+            <p>
+                🚛 Transporte de Cargas para o Interior – Distribuição segura e eficiente para qualquer região.
+                📦 Fretes e Mudanças – Mudanças residenciais e comerciais com total cuidado e pontualidade.
+                🏢 Transporte Empresarial – Soluções logísticas para empresas que precisam levar produtos ao interior.
+                ⚡ Entrega Expressa – Serviço rápido para demandas urgentes, garantindo agilidade no transporte.
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção de Contato Futurista -->
+    <section id="contato" class="contact-section">
+        <h2>Faça uma Cotação Agora!</h2>
+        <p>Entre em contato conosco via WhatsApp para solicitar um orçamento personalizado.</p>
+        <a href="https://wa.me/+5511961786532" class="whatsapp-button" target="_blank">
+            📞 Cotação via WhatsApp
+        </a>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 DGS Transportes. Todos os direitos reservados. | <a href="#">Política de Privacidade</a></p>
+    </footer>
+</body>
+</html>
